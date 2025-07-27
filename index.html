@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script - AI Chat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <div class="logo-icon">H</div>
+                    <span>Hackathon</span>
+                </div>
+            </div>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Search" />
+                <span class="shortcut">⌘K</span>
+            </div>
+
+            <nav class="sidebar-nav">
+                <div class="nav-item active">
+                    <span class="nav-icon">💬</span>
+                    <span>AI Chat</span>
+                </div>
+                <div class="nav-item">
+                    <span class="nav-icon">📁</span>
+                    <span>Projects</span>
+                </div>
+                <div class="nav-item">
+                    <span class="nav-icon">📜</span>
+                    <span>History</span>
+                </div>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="settings-section">
+                    <h4>Settings & Help</h4>
+                    <div class="nav-item">
+                        <span class="nav-icon">⚙️</span>
+                        <span>Settings</span>
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-icon">❓</span>
+                        <span>Help</span>
+                    </div>
+                </div>
+
+                <div class="user-profile">
+                    <img src="https://via.placeholder.com/32" alt="User" class="profile-pic">
+                    <div class="user-info">
+                        <div class="user-name">Made by Nuttapon Suriyapunpong</div>
+                        <div class="user-email">maxnuttapon4@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="header">
+                <h1>AI Chat</h1>
+            </div>
+
+            <div class="welcome-section">
+                <h2>Welcome to Script</h2>
+                <p>Get started by Script a task and Chat can do the rest. Not sure where to start?</p>
+
+                <div class="action-cards">
+                    <div class="action-card orange">
+                        <div class="card-icon">✏️</div>
+                        <span>Write copy</span>
+                        <button class="card-add">+</button>
+                    </div>
+                    <div class="action-card blue">
+                        <div class="card-icon">🖼️</div>
+                        <span>Image generation</span>
+                        <button class="card-add">+</button>
+                    </div>
+                    <div class="action-card green">
+                        <div class="card-icon">👤</div>
+                        <span>Create avatar</span>
+                        <button class="card-add">+</button>
+                    </div>
+                    <div class="action-card pink">
+                        <div class="card-icon">💻</div>
+                        <span>Write code</span>
+                        <button class="card-add">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-input-container">
+                <div class="chat-input">
+                    <input type="text" placeholder="Summarize the latest" id="messageInput">
+                    <button class="send-btn" id="sendBtn">→</button>
+                </div>
+                <div class="input-actions">
+                    <button class="action-btn">📎 Attach</button>
+                    <button class="action-btn">🎤 Voice Message</button>
+                    <button class="action-btn">💡 Browse Prompts</button>
+                    <span class="char-count">20 / 3,000</span>
+                </div>
+                <p class="disclaimer">Script may generate inaccurate information about people, places, or facts. Model: Script AI v1.3</p>
+            </div>
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="right-sidebar">
+            <div class="projects-header">
+                <h3>Projects (1)</h3>
+                <button class="more-btn">⋯</button>
+            </div>
+            <button class="new-project-btn">New Project</button>
+            
+            <div class="project-list">
+                <div class="project-item github-project">
+                    <div class="project-header">
+                        <div class="project-icon">🔗</div>
+                        <h4>ORWIN5STAR</h4>
+                    </div>
+                    <p>GitHub repository integration and automated code analysis</p>
+                    <div class="project-meta">
+                        <span class="project-type">GitHub</span>
+                        <span class="project-status">Active</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
