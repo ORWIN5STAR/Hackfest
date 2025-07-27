@@ -1,13 +1,13 @@
 // KeyAuth Configuration
 const KEYAUTH_CONFIG = {
-    name: "SSSS",
-    ownerid: "zOBkfpmZB1",
-    secret: "62bbbd0e42993adeaea5349ac019adef92925183f331159c06130e738ea3e608",
+    name: "",
+    ownerid: "",
+    secret: "",
     version: "1.2"
 };
 
 // Gemini API Configuration
-const GEMINI_API_KEY = "AIzaSyAmdRx514EpwnsbyctOZ8NAk2_S9lwg2z0";
+const GEMINI_API_KEY = "";
 const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
 
 class ScriptApp {

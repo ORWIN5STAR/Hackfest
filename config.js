@@ -2,9 +2,9 @@
 const CONFIG = {
     // Replace with your actual KeyAuth credentials
     KEYAUTH: {
-        name: "SSSS",
-        ownerid: "zOBkfpmZB1", 
-        secret: "your-secret-key",
+        name: "",
+        ownerid: "", 
+        secret: "",
         version: "1.2"
     },
     
